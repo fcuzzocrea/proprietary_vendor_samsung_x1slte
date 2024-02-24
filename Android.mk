@@ -6,4 +6,19 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),x1slte)
 
+$(call add-radio-file-sha1-checked,radio/dqmdbg.img_SM-G980F,92b61af1c85ea885207f54edc6ad87a8325f30d1)
+$(call add-radio-file-sha1-checked,radio/harx.bin_SM-G980F,068f6ba03aa9f99ac7d6a0172dfedb240f4c59d7)
+$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-G980F,66e1a12f2a39814bfa9a06457f91e8c641ba295e)
+$(call add-radio-file-sha1-checked,radio/ldfw.img_SM-G980F,0a107d05d6fdf267ce6d31e22be176dc6f4bc1aa)
+$(call add-radio-file-sha1-checked,radio/models,720b7c60ea5fdcdce1bdd4c976be897c8568edce)
+$(call add-radio-file-sha1-checked,radio/modem.bin_SM-G980F,07c0cc12235873ab675d26853dfd1e1bdbda206a)
+$(call add-radio-file-sha1-checked,radio/modem_debug.bin_SM-G980F,2bd1ad3cbb837f2f7e91f7909b2cdc571a019a53)
+$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-G980F,b78ea8f70394fccae912aeb45a4857573065c030)
+$(call add-radio-file-sha1-checked,radio/ssp.img_SM-G980F,ec5e33a636dc388eaf5675712d52fe0355fe515e)
+$(call add-radio-file-sha1-checked,radio/tzar.img_SM-G980F,beefece7349e1cfea90a1372daa80611e83dbf12)
+$(call add-radio-file-sha1-checked,radio/tzsw.img_SM-G980F,8a0c72311829983dcbee213cfde1e1e0cb0bab78)
+$(call add-radio-file-sha1-checked,radio/uh.bin_SM-G980F,ce1f0da4f33b9ec74c1741213f8a3823c9eaacde)
+$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-G980F,a38edaee07aad291aac21e0427dbdfe3f7a60337)
+$(call add-radio-file-sha1-checked,radio/version_SM-G980F,eedf400aee0031147215f28b1e374e28067dd79e)
+
 endif
